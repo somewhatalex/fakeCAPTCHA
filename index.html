@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+    <TITLE>Please verify that you're not a robot.</TITLE>
+    <LINK REL="stylesheet" HREF="style.css">
+    <SCRIPT SRC="main.js"></SCRIPT>
+  </HEAD>
+  <BODY ONLOAD="initimg()">
+    <DIV CLASS="captcha-main">
+      <DIV CLASS="toparea">
+        <DIV CLASS="instructions">Select all squares with</DIV>
+        <DIV CLASS="target-image-text">
+          <H1 ID="target-img-name">humans</H1>
+        </DIV>
+        <DIV CLASS="instructions">If there are none, click verify</DIV>
+      </DIV>
+      <DIV CLASS="imagearea">
+        <TABLE CLASS="imagetable">
+          <TR>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(1)" ID="1" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(2)" ID="2" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(3)" ID="3" SRC=""></TD>
+          </TR>
+          <TR>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(4)" ID="4" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(5)" ID="5" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(6)" ID="6" SRC=""></TD>
+          </TR>
+          <TR>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(7)" ID="7" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(8)" ID="8" SRC=""></TD>
+            <TD CLASS="imagesquare"><IMG CLASS="unselected" ONCLICK="captchaclick(9)" ID="9" SRC=""></TD>
+          </TR>
+        </TABLE>
+      </DIV>
+      <!-- check and submit captcha -->
+      <TABLE CLASS="no-table"><TR><TD><DIV CLASS="try-again">Try Again<DIV></TD><TD><BUTTON ONCLICK="resetcaptcha()" CLASS="verify">Verify</BUTTON></TD></TR></TABLE>
+    </DIV>
+  </BODY>
+</HTML>
