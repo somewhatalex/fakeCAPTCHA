@@ -1,4 +1,4 @@
-var imgdata = { //add 9 image URLs and a title in the end, you may do up to 9 slides
+var imgdata = { //add 9 image URLs and a title in the end, you may do up to 6 slides
   firstimgURL: [
     "http://outdoornebraska.gov/wp-content/uploads/2020/09/Lizard_RGB.jpg",
     "https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_lizards.jpg",
