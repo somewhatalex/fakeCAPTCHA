@@ -1,4 +1,4 @@
-var imgdata = {
+var imgdata = { //add 9 image URLs and a title in the end, you may do up to 9 slides
   firstimgURL: [
     "http://outdoornebraska.gov/wp-content/uploads/2020/09/Lizard_RGB.jpg",
     "https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_lizards.jpg",
@@ -47,6 +47,9 @@ var imgdata = {
     "https://live.staticflickr.com/61/195907512_2b145da4a0_b.jpg",
     "COVID-19" //title goes last
   ],
+  /*fifthimgURL: [ //add your new slide here
+  
+  ] */
 };
 
 var correctanswers = { //0 is wrong, 1 is right
@@ -82,7 +85,13 @@ var correctanswers = { //0 is wrong, 1 is right
     0,
     0,
     1
-  ]
+  ],
+   /*fifthimgURL: [ //add your answers for slide #4 here
+  
+  ], */
+   /*fifthimgURL: [ //add your answers for slide #5 here
+  
+  ] */
 };
 
 var answerdb = [];
