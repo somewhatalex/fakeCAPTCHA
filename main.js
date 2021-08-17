@@ -86,7 +86,7 @@ var correctanswers = { //0 is wrong, 1 is right
     0,
     1
   ],
-   /*fifthimgURL: [ //add your answers for slide #4 here
+   /*fourthimgURL: [ //add your answers for slide #4 here
   
   ], */
    /*fifthimgURL: [ //add your answers for slide #5 here
